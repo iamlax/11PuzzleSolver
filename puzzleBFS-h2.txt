@@ -1,0 +1,15 @@
+
+
+Best-First Search with h2
+Start time(currentTimeMillis): 1552887090085
+Found Goal state
+Solution Path
+0 [1, 0, 3, 7, 5, 2, 6, 4, 9, 10, 11, 8]
+f [1, 2, 3, 7, 5, 0, 6, 4, 9, 10, 11, 8] DOWN
+g [1, 2, 3, 7, 5, 6, 0, 4, 9, 10, 11, 8] RIGHT
+d [1, 2, 3, 0, 5, 6, 7, 4, 9, 10, 11, 8] UP_RIGHT
+h [1, 2, 3, 4, 5, 6, 7, 0, 9, 10, 11, 8] DOWN
+l [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0] DOWN
+Nodes visited: 158
+End time(currentTimeMillis): 1552887090097
+Total time(seconds): 12

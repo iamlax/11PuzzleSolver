@@ -51,6 +51,7 @@ public class HeuristicSearch {
         endTime = System.currentTimeMillis();
         response += ("\nEnd time(currentTimeMillis): " + endTime);
         response += ("\nTotal time(seconds): " + (endTime-startTime));
+        writeToFile("puzzleIFS.txt", response);
         heuristicLibrary.clearLists();
         System.out.println(response);
 
@@ -62,6 +63,7 @@ public class HeuristicSearch {
         endTime = System.currentTimeMillis();
         response += ("\nEnd time(currentTimeMillis): " + endTime);
         response += ("\nTotal time(seconds): " + (endTime-startTime));
+        writeToFile("puzzleBFS.txt", response);
         heuristicLibrary.clearLists();
         System.out.println(response);
 
